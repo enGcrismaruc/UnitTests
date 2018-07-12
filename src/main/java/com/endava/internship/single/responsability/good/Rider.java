@@ -30,4 +30,31 @@ public class Rider {
     public void ride(Bike bike) {
         System.out.println("Riding bike..." + bike.getType());
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public Rider setName(String name) {
+        this.name = name;
+        return this;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public Rider setAge(int age) {
+        this.age = age;
+        return this;
+    }
+
+    public String getNationality() {
+        return nationality;
+    }
+
+    public Rider setNationality(String nationality) {
+        this.nationality = nationality;
+        return this;
+    }
 }

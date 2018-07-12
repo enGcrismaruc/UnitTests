@@ -11,4 +11,22 @@ public class Speedometer {
     public void printSpeed() {
         System.out.println("Speed = " + getSpeed());
     }
+
+    public int getDistance() {
+        return distance;
+    }
+
+    public Speedometer setDistance(int distance) {
+        this.distance = distance;
+        return this;
+    }
+
+    public int getTime() {
+        return time;
+    }
+
+    public Speedometer setTime(int time) {
+        this.time = time;
+        return this;
+    }
 }
