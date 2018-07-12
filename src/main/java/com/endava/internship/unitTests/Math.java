@@ -1,4 +1,4 @@
-package com.endava.internship.unit.tests;
+package com.endava.internship.unitTests;
 
 import java.util.List;
 

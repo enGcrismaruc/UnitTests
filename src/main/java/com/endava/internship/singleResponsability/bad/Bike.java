@@ -1,4 +1,4 @@
-package com.endava.internship.single.responsability.bad;
+package com.endava.internship.singleResponsability.bad;
 
 public class Bike {
     private enum BikeType {

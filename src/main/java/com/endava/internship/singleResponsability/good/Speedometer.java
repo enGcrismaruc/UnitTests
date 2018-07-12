@@ -1,4 +1,4 @@
-package com.endava.internship.single.responsability.good;
+package com.endava.internship.singleResponsability.good;
 
 public class Speedometer {
     private int distance;
