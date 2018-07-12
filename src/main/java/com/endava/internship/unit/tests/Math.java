@@ -9,7 +9,8 @@ public class Math {
     }
 
     public static int averageOfListsElements(List<Integer> integers) {
-        int sumOfElements = integers.stream().reduce((integer, integer2) -> integer + integer2).get();
+        int sumOfElements = integers.stream().reduce((integer, integer2) -> integer + integer2)
+                .orElse(0);
 
         return sumOfElements / integers.size();
     }
